@@ -1,3 +1,25 @@
 .Header {
-    background-color: #D0021B;
+    background-color: #d0021b;
+}
+.Header:before {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+
+    position: absolute;
+    z-index: 10000;
+    top: 4px;
+    left: 4px;
+
+    display: block;
+
+    padding: 0 4px;
+
+    content: 'warning!';
+    transform: rotate(-6deg);
+    letter-spacing: 1px;
+
+    color: #000;
+    border: solid 1px #000;
+    background-color: #f8e71c;
 }
