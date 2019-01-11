@@ -3,23 +3,22 @@
 }
 .Header:before {
     font-family: monospace;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 
     position: absolute;
     z-index: 10000;
-    top: 4px;
-    left: 4px;
+    top: 2px;
+    left: -2px;
 
     display: block;
 
     padding: 0 4px;
 
-    content: 'warning!';
+    content: 'WARNING!!';
     transform: rotate(-6deg);
     letter-spacing: 1px;
 
-    color: #000;
-    border: solid 1px #000;
-    background-color: #f8e71c;
+    color: #f8e71c;
+    background-color: #000;
 }
